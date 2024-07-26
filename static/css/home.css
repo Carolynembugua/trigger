@@ -1,0 +1,42 @@
+h3{
+    text-align: center;
+    color: rosybrown;
+    background-color: black;
+    line-height: 100px;
+    text-shadow: 4px 12px 12px yellow;
+}
+#par1{
+    font-weight: bold;
+}
+#par2{
+    font-style: italic;
+}
+.main{
+    display: flex;
+
+}
+.course1{
+    background-color: paleturquoise;
+    margin-right: 10px;
+}
+.course2{
+    background-color: darkseagreen;
+    margin-right: 10px;
+}
+.course3{
+    background-color: darkkhaki;
+}
+.course1,.course2,.course3{
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 6px 6px grey;
+}
+.course1:hover,.course2:hover,.course3:hover{
+    background-color: grey;
+}
+img{
+    width: 250px;
+}
+img:hover{
+    opacity: 0.8;
+}

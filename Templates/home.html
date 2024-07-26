@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!---when mentioning static ginger brackets must be used-->
+    <!---image hover use opacity attribute-->
+</head>
+<body>
+<h3>Trigger Application</h3>
+<a href="{% url 'contact' %}" class="btn btn-primary">Contact</a><!--to be able to use it got to urls to link it with the name 'taq' , you also have to use the ginger brackets-->
+<a href="{% url 'payment' %}" class="btn btn-outline-warning">Payment</a>
+<a href="{% url 'information' %}" class="btn btn-success">Information</a>
+<p id="par1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid animi, commodi consequatur cumque doloribus error ex exercitationem facere fugiat harum inventore, maxime minima officiis quia, quod saepe ut voluptatibus?</span><span>Dolores inventore officia pariatur quas quisquam. Cumque et non numquam reiciendis, saepe similique soluta sunt? Eligendi, officia perspiciatis quam quasi similique tempore. A blanditiis dolorem molestiae possimus quo tempora ut.</span><span>A, amet consequatur cupiditate deleniti dolore enim eveniet explicabo, odit officiis pariatur quae quaerat quidem quos. Animi aspernatur cumque dolorum eos expedita explicabo fuga natus nobis quo repellendus, similique ullam!</span><span>At natus omnis perspiciatis quod tempore. Atque beatae consectetur explicabo illum ipsam itaque nobis quo suscipit temporibus voluptas! Dolor eligendi harum omnis optio. Distinctio est minus soluta temporibus? Necessitatibus, velit.</span></p>
+<img src="{% static 'assets/lnd.jpg' %}" alt="">
+<img src="{% static 'assets/lnd2.jpg' %}" alt="">
+<img src="{% static 'assets/lnd3.jpg' %}" alt="">
+<img src="{% static 'assets/picture8.jpeg' %}" alt="">
+
+
+
+<p id="par2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi aperiam aut cum cupiditate delectus deleniti dolor ea eveniet facilis id labore mollitia neque numquam quas ratione suscipit, tempora vero?</span><span>Accusamus alias at consectetur eos ex facilis fugiat itaque minus, molestias, mollitia natus non nulla odit pariatur, provident quaerat quasi rerum soluta ullam vitae? Dicta esse fuga nulla quas ullam!</span><span>A ab adipisci aliquam amet aspernatur atque autem beatae delectus distinctio doloribus ducimus expedita explicabo facere hic ipsa iusto nesciunt nihil nisi nostrum numquam rem reprehenderit repudiandae ullam, veritatis voluptates?</span></p>
+<!------- text shadow styling :horizontal offset, vertical offset ,blurriness ,colour------>
+<div class="main">
+    <div class="course1">
+       <h1>Cybersecurity</h1>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio dolorum, fugiat, hic id impedit, laboriosam nisi nobis officiis omnis provident rem veniam? Asperiores aspernatur beatae deserunt quam repellat velit!</span><span>Accusantium aut beatae commodi consequuntur maiores nisi odio quia repellendus? Dolorem ducimus molestiae, necessitatibus nesciunt praesentium quidem quis sunt veniam. A aliquam aut, consectetur ea illum inventore mollitia qui unde.</span></p>
+    </div>
+    <div class="course2">
+        <h1>DataScience</h1>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur corporis cumque dolore ducimus esse eum, fuga fugit hic id illum natus nisi non numquam placeat quidem reprehenderit, saepe voluptas.</span><span>Alias asperiores cum dolores laudantium nemo nesciunt tenetur ut voluptate? Alias, aspernatur corporis laboriosam pariatur placeat quidem repudiandae sed! Ab aut ducimus, eum fuga fugiat nemo nulla repellendus unde ut.</span></p>
+
+    </div>
+    <div class="course3">
+        <h1>Web Development</h1>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aut blanditiis corporis eos nisi perferendis quia sint suscipit tempore tenetur totam, vel. Autem beatae illum magnam nemo reprehenderit totam!</span><span>Accusantium animi deleniti facere impedit magni molestias, nam nemo nobis, omnis perspiciatis praesentium quibusdam quo quos reprehenderit sapiente similique sint tempora vitae voluptates, voluptatum? Facere incidunt laudantium non sapiente vitae?</span></p>
+    </div>
+</div>
+</body>
+</html>
